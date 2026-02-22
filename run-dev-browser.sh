@@ -1,0 +1,1 @@
+#!/bin/bash\n# Helper script to launch Google Chrome bypassing certificate errors for local dev\n\necho "Launching Chrome bypassing SSL..."\nnohup google-chrome --ignore-certificate-errors --user-data-dir=/tmp/ignore-ssl-chrome-profile http://localhost:5173 > /dev/null 2>&1 &\n
