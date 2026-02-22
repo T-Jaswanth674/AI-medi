@@ -17,13 +17,16 @@ import {
     Timestamp,
 } from 'firebase/firestore';
 
+
+// Add your Credentials
+
 const firebaseConfig = {
-    apiKey: "AIzaSyDulwtMmBSr049vT36nHHdIt_k3vvMXdeM",
-    authDomain: "medi-ai-bb781.firebaseapp.com",
-    projectId: "medi-ai-bb781",
-    storageBucket: "medi-ai-bb781.firebasestorage.app",
-    messagingSenderId: "968860694230",
-    appId: "1:968860694230:web:27691a605882e44a32fb77"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
 };
 
 const app = initializeApp(firebaseConfig);
